@@ -1,0 +1,75 @@
+/* ---------------------------- Grid ----------------------------------*/
+body{
+    display: grid;
+    grid-template-columns: 10fr 50fr 10fr;
+    grid-template-rows: 1fr;
+}
+#folha{
+    background-color: white;
+    grid-area: 1 / 2 / 2 / 3;
+}
+#conteudo{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: 1fr;
+}
+#esquerda{
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2;
+    row-gap: 10px;
+}
+#direita{
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    row-gap: 10px;
+}
+
+
+/* ------------------------------- Estilização --------------------------- */
+
+body{
+    font:15pt Arial;
+    background-color: gray;
+}
+img{
+    width: 170px;
+    border-radius: 100%;
+    margin: auto;
+}
+.hr1{
+    height: 3px;
+    background-color: black;
+    margin: 0px;
+}
+.hr2{
+    height: 2px;
+    background-color: white;
+    margin: 0px;
+}
+#esquerda{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+li{
+    margin: 30px;
+}
+#esquerda{
+    padding: 15px;
+    background-color: rgb(14, 139, 201);
+    color: white;
+}
+#direita{
+    padding: 15px;
+    font-size: 15pt;
+}
+#hobby li{
+    text-align: left;
+    margin: 15px;
+    margin-left: 0px;
+    font-size: 15pt;
+}
